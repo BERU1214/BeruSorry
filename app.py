@@ -116,7 +116,7 @@ st.markdown(
         max-height: 100% !important;
         object-fit: contain;
         transform: scale({image_scale:.3f});
-        transition: transform 450ms ease;
+        transition: transform 250ms ease;
     }}
     .st-key-apology_frame [data-testid="stVerticalBlock"] {{ gap: 0.5rem; }}
     .st-key-apology_frame h1 {{ color: #d94370; margin: 0 0 0.25rem; line-height: 1.1; }}
