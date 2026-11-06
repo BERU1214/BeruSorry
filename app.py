@@ -154,13 +154,22 @@ st.markdown(
             width: 94vw;
             height: auto;
             min-height: 80vh;
+            margin: 40px auto 0;
             padding: 0.75rem;
         }}
         .st-key-image_stage {{ width: min(100%, 36vh); }}
-        .st-key-apology_frame [data-testid="stHorizontalBlock"] {{ gap: 0.4rem !important; }}
-        .st-key-apology_frame [data-testid="stVerticalBlock"] {{ gap: 0.35rem; }}
+        .st-key-apology_frame [data-testid="stHorizontalBlock"] {{ gap: 0.3rem !important; }}
+        .st-key-apology_frame [data-testid="stVerticalBlock"] {{ gap: 0.25rem; }}
         .st-key-apology_frame h1 {{ font-size: 1.5rem; }}
-        .st-key-message_bubble {{ height: 92px; padding: 0.6rem 0.75rem; }}
+        .st-key-message_bubble {{
+            box-sizing: border-box;
+            width: 100%;
+            height: 70px;
+            min-height: 70px;
+            flex-shrink: 0;
+            margin: 0.2rem 0;
+            padding: 1rem;
+        }}
         .st-key-message_bubble p {{ font-size: 112.5%; line-height: 1.2; }}
         .st-key-apology_frame [data-testid="stHorizontalBlock"] {{ flex: initial; }}
     }}
